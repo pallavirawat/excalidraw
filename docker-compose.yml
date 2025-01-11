@@ -5,7 +5,7 @@ services:
       args:
         - NODE_ENV=development
     container_name: ExcaliDraw
-    image: docker.io/excalidraw/excalidraw:latest
+    image: pallavirawat/ex-servie-ui:latest
     ports:
       - "3040:80"
     restart: on-failure
